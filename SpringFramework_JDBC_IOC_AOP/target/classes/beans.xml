@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--配置IOC-->
+    <bean id="accountService" class="com.springdemo.service.imp.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao"/>
+    </bean>
+    <bean id="accountDao" class="com.springdemo.dao.imp.AccountDaoImpl">
+        <property name="runner" ref="runner"/>
+        <property name="connectionUtil" ref="connectionUtil"/>
+    </bean>
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
+        <constructor-arg name="ds" ref="dataSource"/>
+    </bean>
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/test?serverTimezone=GMT%2B8"/>
+        <property name="username" value="root"/>
+        <property name="password" value="zxcvbnm1234"/>
+    </bean>
+<!--    配置spring的AOP-->
+    <bean id="transaction" class="com.springdemo.utils.TransactionManager">
+        <property name="connectionUtil" ref="connectionUtil"></property>
+    </bean>
+    <bean id="connectionUtil" class="com.springdemo.utils.ConnectionUtil">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    <aop:config>
+        <aop:pointcut id="pt1" expression="execution(* com.springdemo.service.imp.*.*(..))"/>
+        <aop:aspect id="transactionAdvice" ref="transaction">
+            <aop:before method="beginTransaction" pointcut-ref="pt1"></aop:before>
+            <aop:after-returning method="commitTransaction" pointcut-ref="pt1"></aop:after-returning>
+            <aop:after-throwing method="rollback" pointcut-ref="pt1"></aop:after-throwing>
+            <aop:after method="release" pointcut-ref="pt1"></aop:after>
+        </aop:aspect>
+    </aop:config>
+</beans>
