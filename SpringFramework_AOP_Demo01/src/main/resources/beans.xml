@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd">
+        <!--配置IOC（控制反转，将主动权交个spring容器）-->
+        <bean id="accountService" class="com.springAOP.service.imp.AccountServiceImp"/>
+        <!--配置AOP-->
+        <bean id="logger" class="com.springAOP.log.Logger"/>
+        <aop:config>
+                <!--配置切入点-->
+                <aop:pointcut id="printLog" expression="execution(* com.springAOP.service.imp.AccountServiceImp.savaAccount())"/>
+                <aop:aspect id="logAdvice" ref="logger">
+<!--                        &lt;!&ndash;配置前置通知，在切入点方法执行前执行&ndash;&gt;-->
+<!--                        <aop:before method="beforePrintLog" pointcut-ref="printLog"/>-->
+<!--                        &lt;!&ndash;后置通知， 在切入点方法正常执行之后执行，与异常通知不能同时出现&ndash;&gt;-->
+<!--                        <aop:after-returning method="afterPrintLog" pointcut-ref="printLog"/>-->
+<!--                        &lt;!&ndash;异常通知， 在切入点方法异常之后执行，与后置通知不能同时出现&ndash;&gt;-->
+<!--                        <aop:after-throwing method="throwPrintLog" pointcut-ref="printLog"/>-->
+<!--                        &lt;!&ndash;最终通知，无论切入点方法是否正常执行，都会执行&ndash;&gt;-->
+<!--                        <aop:after method="finallyPrintLog" pointcut-ref="printLog"/>-->
+                        <!--配置环绕通知方法-->
+                        <aop:around method="aroundPrintLog" pointcut-ref="printLog"/>
+                </aop:aspect>
+        </aop:config>
+</beans>
