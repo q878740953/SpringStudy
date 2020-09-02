@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:orgin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4fd2da97-3595-48d9-9503-6851a12f546e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.4\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gH5w8HK8d0zvEonaPkPbBCMqCP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\87874\OneDrive\CodeJavaProjects\SpringFrameworkDemo05\src\main\resources" />
+      <recent name="C:\Users\87874\OneDrive\CodeJavaProjects\SpringFrameworkDemo05\src\test\java" />
+      <recent name="C:\Users\87874\OneDrive\CodeJavaProjects\SpringFrameworkDemo05\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SpringTest.findAllAccount">
+    <configuration name="SpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringFrameworkDemo05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.springdemo.SpringTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTest.findAllAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringFrameworkDemo05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.springdemo.SpringTest" />
+      <option name="METHOD_NAME" value="findAllAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringTest.findAllAccount" />
+        <item itemvalue="JUnit.SpringTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fd2da97-3595-48d9-9503-6851a12f546e" name="Default Changelist" comment="" />
+      <created>1597758913549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597758913549</updated>
+      <workItem from="1597758914619" duration="1025000" />
+      <workItem from="1597826532155" duration="4627000" />
+      <workItem from="1597898717962" duration="564000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1597759125244">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1597759125244" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597827707279">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597827707279" />
+    <state x="502" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597828432771">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="502" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597828432771" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597827686331">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597827686331" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1597899225858">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597899225858" />
+    <state width="1522" height="222" key="GridCell.Tab.0.bottom" timestamp="1597829982048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1522" height="222" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597829982048" />
+    <state width="1522" height="222" key="GridCell.Tab.0.center" timestamp="1597829982048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1522" height="222" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597829982048" />
+    <state width="1522" height="222" key="GridCell.Tab.0.left" timestamp="1597829982048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1522" height="222" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597829982048" />
+    <state width="1522" height="222" key="GridCell.Tab.0.right" timestamp="1597829982048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1522" height="222" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597829982048" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1597759090689">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597759090689" />
+    <state x="178" y="72" key="new project wizard" timestamp="1597899284805">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597899284805" />
+    <state x="410" y="95" key="spring file set editor" timestamp="1597759133122">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="410" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1597759133122" />
+  </component>
+</project>
