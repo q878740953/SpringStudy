@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--构造函数依赖注入-->
+<!--    <bean id="user" class="com.springdemo.domain.User">-->
+<!--        <constructor-arg name="name" value="张三"/>-->
+<!--        <constructor-arg name="age" value="22"/>-->
+<!--        <constructor-arg name="birthday" ref="now"/>-->
+<!--    </bean>-->
+<!--    set方法注入-->
+    <bean id="user" class="com.springdemo.domain.User">
+        <property name="name" value="张三"/>
+        <property name="age" value="12"/>
+        <property name="birthday" ref="now"/>
+    </bean>
+    <bean name="now" class="java.util.Date"/>
+    <bean name="setTest" class="com.springdemo.domain.SetTest">
+        <property name="myStrs">
+            <array>
+                <value>AAA</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </array>
+        </property>
+        <property name="myList">
+            <list>
+                <value>aaa</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </list>
+        </property>
+        <property name="mySet">
+            <set>
+                <value>HHHH</value>
+                <value>AAA</value>
+                <value>AAA</value>
+            </set>
+        </property>
+        <property name="myMap">
+            <map>
+                <entry key="map01" value="hahha"></entry>
+                <entry key="map02" value="aaaa"></entry>
+            </map>
+        </property>
+        <property name="myProps">
+            <props>
+                <prop key="prop">hahha</prop>
+                <prop key="prop2">aaaa</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
